@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* basic CSS reset */
+}
+
+.main-container {
+  /* width: 500px;
+  height: 500px; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column;
+  justify-content: space-between; */
+}
+
+.item1 {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+}
+.item2 {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+}
+.item3 {
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+}
+.item4 {
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+}
+.item5 {
+  width: 50px;
+  height: 50px;
+  background-color: darkslategray;
+}
+.item6 {
+  width: 50px;
+  height: 50px;
+  background-color: #005f5f;
+}
