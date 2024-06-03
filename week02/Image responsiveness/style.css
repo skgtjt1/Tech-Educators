@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  object-fit: contain;
+  max-width: fit-content;
+  justify-content: space-around;
+}
+
+img {
+  /* object-fit: contain; */
+  border: 5px solid black;
+  max-width: 90vw;
+}

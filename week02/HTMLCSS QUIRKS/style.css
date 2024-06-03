@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* display: block; */
+  background-color: #ccc;
+}
+
+.box1 {
+  padding-bottom: 20px;
+  border: 5px solid black;
+}
+
+.box2 {
+  padding-top: 30px;
+  /* overflow: hidden; */
+  border: 5px solid black;
+}
+
+.image-container img {
+  display: block;
+  /* Or use 'vertical-align: bottom;' */
+}
