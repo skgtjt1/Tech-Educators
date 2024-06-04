@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+form input {
+  width: 200px;
+}
+
+button {
+  width: 200px;
+}
+
+select {
+  width: 200px;
+}

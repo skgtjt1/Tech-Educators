@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Testing out Forms</title>
+  </head>
+  <body>
+    <header><h1>Testing out forms!</h1></header>
+    <main>
+      <h2>User Entry</h2>
+      <form id="data-entry">
+        <!-- username -->
+        <div>
+          <label for="username">Username: </label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="write your name here"
+            required
+          />
+        </div>
+        <!-- email -->
+        <div>
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="useremail"
+            placeholder="Write your email here"
+            required
+          />
+        </div>
+        <div>
+          <label for="telephone">Home Telephone: </label>
+          <input type="tel" name="telephone" id="homephone" />
+        </div>
+        <div>
+          <label for="time">When would you like to visit today?</label>
+          <input type="time" name="time" id="usertime" />
+        </div>
+        <div>
+          <select name="customerCountry">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="spain">Spain</option>
+          </select>
+          <div>
+            <label for="checkbox"
+              >Would you like to subscribe to our newsletter?</label
+            >
+            <input type="checkbox" name="checkbox" id="newssub" />
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
